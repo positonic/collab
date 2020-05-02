@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
+import KnowledgeRoll from '../../components/KnowledgeRoll'
 
 export default class KnowledgeIndexPage extends React.Component {
   render () {
@@ -115,7 +116,9 @@ export default class KnowledgeIndexPage extends React.Component {
                 </div>
               </div>
             </div>
-            <div className='content'></div>
+            <div className='content'>
+              <KnowledgeRoll />
+            </div>
           </div>
         </section>
       </Layout>

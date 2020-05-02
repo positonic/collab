@@ -41,6 +41,12 @@ collections:
     create: true
     slug: 'knowledge-{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'knowledge-type',
+        }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
           label: 'Type',
