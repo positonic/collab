@@ -45,7 +45,7 @@ collections:
           label: 'Template Key',
           name: 'templateKey',
           widget: 'hidden',
-          default: 'knowledge-type',
+          default: 'knowledge-post',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {

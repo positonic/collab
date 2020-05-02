@@ -72,7 +72,7 @@ export default () => (
       query KnowledgeRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "knowledge-type" } } }
+          filter: { frontmatter: { templateKey: { eq: "knowledge-post" } } }
         ) {
           edges {
             node {

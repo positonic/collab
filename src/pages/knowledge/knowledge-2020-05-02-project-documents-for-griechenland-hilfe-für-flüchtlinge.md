@@ -1,5 +1,6 @@
 ---
-title: "Project documents for - Griechenland: Hilfe für Flüchtlinge"
+templateKey: knowledge-post
+title: 'Project documents for - Griechenland: Hilfe für Flüchtlinge'
 knowledge-type: Project documents
 knowledge-file: /img/griechenland-hilfe-für-flüchtlinge.txt
 featuredimage: /img/screenshot-2020-05-02-at-18.24.17.png
