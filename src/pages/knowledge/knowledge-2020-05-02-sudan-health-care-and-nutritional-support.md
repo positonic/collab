@@ -1,6 +1,6 @@
 ---
 templateKey: knowledge-post
-title: "Sudan: Health care and nutritional support"
+title: 'Sudan: Health care and nutritional support'
 knowledge-type: Case studies
 knowledge-file: /img/sudan-factsheet.txt
 featuredimage: /img/sudan-health.jpg

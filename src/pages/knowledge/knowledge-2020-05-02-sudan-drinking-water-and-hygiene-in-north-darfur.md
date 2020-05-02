@@ -1,6 +1,6 @@
 ---
 templateKey: knowledge-post
-title: "Sudan: Drinking water and hygiene in North Darfur"
+title: 'Sudan: Drinking water and hygiene in North Darfur'
 knowledge-type: Lessons learned documents
 knowledge-file: /img/lessons-sudan.txt
 featuredimage: /img/sudan-lessons.jpg

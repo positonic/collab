@@ -1,4 +1,5 @@
 ---
+templateKey: knowledge-post
 title: Project documents for - The German Red Cross in Mosambique
 knowledge-type: Case studies
 knowledge-file: /img/case-study-moz.txt
