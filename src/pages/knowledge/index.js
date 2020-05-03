@@ -1,9 +1,44 @@
 import React from 'react'
-
+import algoliasearch from 'algoliasearch'
+import {
+  SearchBox,
+  Hits,
+  InstantSearch,
+  Highlight,
+  Pagination
+} from 'react-instantsearch-dom'
 import Layout from '../../components/Layout'
 import KnowledgeRoll from '../../components/KnowledgeRoll'
+import './Algo.css'
+import Search from '../../components/search'
+const searchIndices = [
+  { name: `anticipation`, title: `Blog posts`, hitComp: `PageHit` },
+  {
+    name: `knowledge`,
+    title: `Knowledge management & learning:`,
+    hitComp: `PostHit`
+  }
+]
+const searchClient = algoliasearch(
+  'B1G2GM9NG0',
+  'aadef574be1f9252bb48d4ea09b5cfe5'
+)
+
+function Hit (props) {
+  return (
+    <article>
+      <h1>
+        <Highlight attribute='name' hit={props.hit} />
+      </h1>
+    </article>
+  )
+}
 
 export default class KnowledgeIndexPage extends React.Component {
+  // Hit.propTypes = {
+  //   hit: PropTypes.object.isRequired,
+  // };
+
   render () {
     return (
       <Layout>
@@ -27,6 +62,25 @@ export default class KnowledgeIndexPage extends React.Component {
         </div>
         <section className='section'>
           <div className='container'>
+            {/* <Search collapse indices={searchIndices} />
+            <hr /> */}
+            {/* <InstantSearch searchClient={searchClient} indexName='anticipation'>
+              <div className='search-panel'>
+                <div className='search-panel__results'>
+                  <SearchBox
+                    className='searchbox'
+                    translations={{
+                      placeholder: ''
+                    }}
+                  />
+                  <Hits hitComponent={Hit} />
+
+                  <div className='pagination'>
+                    <Pagination />
+                  </div>
+                </div>
+              </div>
+            </InstantSearch> */}
             <div
               style={{
                 lineHeight: 1.15,
