@@ -3,28 +3,29 @@ templateKey: index-page
 title: Anticipation hub
 image: /img/greece.jpg
 heading: Anticipation hub
-subheading: Inform, organize and exchange
+subheading: How the Red Corss will inform, organise and exchange
 mainpitch:
   title: Anticipation hub
   description: >
-    Anticipation hub is a very exciting new project from the Red Cross. Wait to you see 
-    what the results of this will be!
+    Anticipation hub is a very exciting new project from the Red Cross. Wait to
+    you see  what the results of this will be!
 description: >-
-  Anticipation hub is a very exciting new project from the Red Cross. Wait to you see 
+  Anticipation hub is a very exciting new project from the Red Cross. Wait to
+  you see 
     what the results of this will be!
 intro:
   blurbs:
     - image: /img/greece.png
-      text: >
+      text: |
         This is a major project in Greece.
     - image: /img/sudan-lessons.jpg
-      text: >
+      text: |
         We learnt a lot of lessons in Sudan
     - image: /img/sudan-health.jpg
-      text: >
+      text: |
         We helped a lot of people in Sudan
     - image: /img/sudan.jpg
-      text: >
+      text: |
         We have been undertaking major operations in Sudan
   heading: What we offer
   description: >
