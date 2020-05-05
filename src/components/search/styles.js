@@ -59,18 +59,6 @@ export const Input = styled.input`
   border-radius: ${props => props.theme.smallBorderRadius};
   {highlight-next-line}
   ${props => (props.collapse ? collapse : expand)};
-  box-sizing: 'border-box';
-  margin: 0;
-  overflow: 'visible';
-  font: '400 18px/28px Helvetica,Arial,sans-serif';
-  background: '0 0';
-  border: 0;
-  color: '#0053d6';
-  height: '100%';
-  left: 0;
-  position: 'absolute';
-  width: '100%';
-  padding: '0 60px 0 20px'
 `
 
 export const Form = styled.form`

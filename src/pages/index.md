@@ -5,13 +5,17 @@ image: /img/greece.jpg
 heading: Anticipation hub
 subheading: Inform, organize and exchange
 mainpitch:
-  title: Anticipation hub
+  title: Why Kaldi
   description: >
-    Anticipation hub is a very exciting new project from the Red Cross. Wait to you see 
-    what the results of this will be!
+    Kaldi is the coffee store for everyone who believes that great coffee
+    shouldn't just taste good, it should do good too. We source all of our beans
+    directly from small scale sustainable farmers and make sure part of the
+    profits are reinvested in their communities.
 description: >-
-  Anticipation hub is a very exciting new project from the Red Cross. Wait to you see 
-    what the results of this will be!
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
 intro:
   blurbs:
     - image: /img/greece.png
