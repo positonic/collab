@@ -108,6 +108,7 @@ collections:
                     widget: list,
                     fields:
                       [
+                        { label: Text, name: heading, widget: string },
                         { label: Image, name: image, widget: image },
                         { label: Text, name: text, widget: text },
                       ],

@@ -5,6 +5,8 @@ import { IndexPageTemplate } from '../../templates/index-page'
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
 
+  console.log(`data : ${JSON.stringify(data, null, 2)}`)
+  console.log(`data.intro ---> : ${data.intro}`)
   if (data) {
     return (
       <IndexPageTemplate
@@ -24,9 +26,9 @@ const IndexPagePreview = ({ entry, getAsset }) => {
 
 IndexPagePreview.propTypes = {
   entry: PropTypes.shape({
-    getIn: PropTypes.func,
+    getIn: PropTypes.func
   }),
-  getAsset: PropTypes.func,
+  getAsset: PropTypes.func
 }
 
 export default IndexPagePreview
