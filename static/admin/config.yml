@@ -66,37 +66,6 @@ collections:
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
 
-  - name: 'knowledge'
-    label: 'Knowledge'
-    folder: 'src/pages/knowledge'
-    create: true
-    slug: 'knowledge-{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'knowledge-post',
-        }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Type',
-          name: 'knowledge-type',
-          widget: 'select',
-          options:
-            [
-              'Project documents',
-              'Factsheets',
-              'Lessons learned documents',
-              'Case studies',
-              'How to videos',
-            ],
-        }
-      - { label: 'File', name: 'knowledge-file', widget: file }
-      - { label: 'Featured Image', name: 'featuredimage', widget: image }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-
   - name: 'groups'
     label: 'Exchange'
     folder: 'src/pages/exchange'
