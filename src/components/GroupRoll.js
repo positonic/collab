@@ -47,7 +47,7 @@ class GroupRoll extends React.Component {
                   <br />
                   <br />
                   <Link className='button' to={post.fields.slug}>
-                    Keep Reading →
+                    View discussion →
                   </Link>
                 </p>
               </article>
