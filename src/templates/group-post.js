@@ -23,9 +23,35 @@ export const GroupPostTemplate = ({
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
             <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
-              {title}asdfasd
+              {title}
             </h1>
             <p>{description}</p>
+            <div id='chatContainer'>
+              <div
+                style={{
+                  background: '#eee',
+                  padding: '20px'
+                }}
+              >
+                How will we handle this?
+              </div>
+              <div
+                style={{
+                  background: '#ddd',
+                  padding: '20px'
+                }}
+              >
+                We should first set up a protocol
+              </div>
+              <div
+                style={{
+                  background: '#ddd',
+                  padding: '20px'
+                }}
+              >
+                Ok, sounds good
+              </div>
+            </div>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -75,6 +101,19 @@ const GroupPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </Layout>
   )
 }
