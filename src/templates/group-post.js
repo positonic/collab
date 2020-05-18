@@ -30,28 +30,83 @@ export const GroupPostTemplate = ({
               <div
                 style={{
                   background: '#eee',
-                  padding: '20px'
+                  padding: '5px'
                 }}
               >
+                <div
+                  style={{
+                    height: '70px',
+                    width: '70px',
+                    backgroundColor: 'white',
+                    padding: '10px',
+                    display: 'inline-block',
+                    marginRight: '20px'
+                  }}
+                >
+                  <img
+                    style={{ width: '50px', marginRight: '20px' }}
+                    src='/img/avatars/alex.png'
+                  />
+                </div>
                 How will we handle this?
               </div>
               <div
                 style={{
                   background: '#ddd',
-                  padding: '20px'
+                  padding: '5px'
                 }}
               >
+                <div
+                  style={{
+                    height: '70px',
+                    width: '70px',
+                    backgroundColor: 'white',
+                    padding: '10px',
+                    display: 'inline-block',
+                    marginRight: '20px'
+                  }}
+                >
+                  <img
+                    style={{ width: '50px', marginRight: '20px' }}
+                    src='/img/avatars/james.png'
+                  />
+                </div>
                 We should first set up a protocol
               </div>
               <div
                 style={{
-                  background: '#ddd',
-                  padding: '20px'
+                  background: '#eee',
+                  padding: '5px'
                 }}
               >
+                <div
+                  style={{
+                    height: '70px',
+                    width: '70px',
+                    backgroundColor: 'white',
+                    padding: '10px',
+                    display: 'inline-block',
+                    marginRight: '20px'
+                  }}
+                >
+                  <img
+                    style={{ width: '50px', marginRight: '20px' }}
+                    src='/img/avatars/nic.png'
+                  />
+                </div>
                 Ok, sounds good
               </div>
             </div>
+            <br />
+            <h3>Continue this chat with:</h3>
+            <img
+              style={{ width: '50px', marginRight: '20px' }}
+              src='/img/chat-logos/telegram.jpg'
+            />
+            <img
+              style={{ width: '30px', marginRight: '20px' }}
+              src='/img/chat-logos/whatsapp-logo.png'
+            />
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
