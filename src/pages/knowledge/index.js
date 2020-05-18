@@ -8,9 +8,12 @@ import {
   Pagination
 } from 'react-instantsearch-dom'
 import Layout from '../../components/Layout'
+import SearchTabs from '../../components/SearchTabs'
 import KnowledgeRoll from '../../components/KnowledgeRoll'
 import './Algo.css'
-import Search from '../../components/search'
+import Search from '../../components/SearchContainer'
+
+//import Search from '../../components/search'
 const searchIndices = [
   { name: `anticipation`, title: `Blog posts`, hitComp: `PageHit` },
   {
@@ -19,10 +22,10 @@ const searchIndices = [
     hitComp: `PostHit`
   }
 ]
-const searchClient = algoliasearch(
-  'B1G2GM9NG0',
-  'aadef574be1f9252bb48d4ea09b5cfe5'
-)
+// const searchClient = algoliasearch(
+//   'B1G2GM9NG0',
+//   'aadef574be1f9252bb48d4ea09b5cfe5'
+// )
 
 function Hit (props) {
   return (
@@ -62,9 +65,10 @@ export default class KnowledgeIndexPage extends React.Component {
         </div>
         <section className='section'>
           <div className='container'>
-            {/* <Search collapse indices={searchIndices} />
-            <hr /> */}
-            {/* <InstantSearch searchClient={searchClient} indexName='anticipation'>
+            {/* js search - uncomment working <Search /> */}
+            {/* algolia - fuck them <Search collapse indices={searchIndices} />
+            <hr />
+            <InstantSearch searchClient={searchClient} indexName='anticipation'>
               <div className='search-panel'>
                 <div className='search-panel__results'>
                   <SearchBox
@@ -170,6 +174,7 @@ export default class KnowledgeIndexPage extends React.Component {
                 </div>
               </div>
             </div>
+            <SearchTabs />
             <div className='content'>
               <KnowledgeRoll />
             </div>

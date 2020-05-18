@@ -17,7 +17,7 @@ export const KnowledgePostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className='section'>
+    <section style={{ paddingTop: 0 }} className='section'>
       {helmet || ''}
       <div className='container content'>
         <div className='columns'>
