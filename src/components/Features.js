@@ -10,7 +10,9 @@ const FeatureGrid = ({ gridItems }) => (
           <div className='has-text-centered'>
             <a
               href={
-                item.heading && item.heading.toLowerCase() === 'exchange'
+                item &&
+                item.heading &&
+                item.heading.toLowerCase() === 'exchange'
                   ? 'exchange'
                   : 'knowledge'
               }
