@@ -10,8 +10,8 @@ import {
 } from 'react-instantsearch-dom'
 import Layout from '../../components/Layout'
 import KnowledgeRoll from '../../components/KnowledgeRoll'
-import './Algo.css'
-import Search from '../../components/search'
+// import './Algo.css'
+// import Search from '../../components/search'
 const searchIndices = [
   { name: `anticipation`, title: `Blog posts`, hitComp: `PageHit` },
   {
