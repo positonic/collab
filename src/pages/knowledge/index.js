@@ -1,5 +1,4 @@
 import React from 'react'
-import algoliasearch from 'algoliasearch'
 import {
   SearchBox,
   Hits,
