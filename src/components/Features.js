@@ -17,16 +17,8 @@ const FeatureGrid = ({ gridItems }) => (
                   : 'knowledge'
               }
             >
-              <div
-                style={{
-                  width: '400px',
-                  display: 'inline-block'
-                }}
-              >
-                <h3>{item.heading}</h3>
-                <PreviewCompatibleImage imageInfo={item} />
-              </div>
-            </a>
+              <PreviewCompatibleImage imageInfo={item} />
+            </div>
           </div>
           <p>{item.text}</p>
         </section>

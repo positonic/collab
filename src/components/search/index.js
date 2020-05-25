@@ -23,10 +23,8 @@ const Stats = connectStateResults(
 
 const useClickOutside = (ref, handler, events) => {
   if (!events) events = [`mousedown`, `touchstart`]
-  const detectClickOutside = event => {
-    debugger
-    return !ref.current.contains(event.target) && handler()
-  }
+  const detectClickOutside = event =>
+    !ref.current.contains(event.target) && handler()
   useEffect(() => {
     for (const event of events)
       document.addEventListener(event, detectClickOutside)
