@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jamespfarrell/gatsby-starter-netlify-cms
+  repo: jamespfarrell/collab
   open_authoring: true
   branch: master
   commit_messages:
