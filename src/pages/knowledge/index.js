@@ -9,7 +9,7 @@ import {
   Pagination
 } from 'react-instantsearch-dom'
 import Layout from '../../components/Layout'
-import SearchTabs from '../../components/SearchTabs'
+//import SearchTabs from '../../components/SearchTabs'
 import KnowledgeRoll from '../../components/KnowledgeRoll'
 import Search from '../../components/SearchContainer'
 
@@ -186,7 +186,7 @@ export default class KnowledgeIndexPage extends React.Component {
                 </div>
               </div>
             </div>
-            <SearchTabs />
+            {/* <SearchTabs /> */}
             <div className='content'>
               <KnowledgeRoll />
             </div>
