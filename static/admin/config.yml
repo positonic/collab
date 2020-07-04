@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: jamespfarrell/gatsby-starter-netlify-cms
   open_authoring: true
   branch: master
