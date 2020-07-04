@@ -1,4 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import algoliasearch from 'algoliasearch'
+import { FiSearch } from 'react-icons/fa'
+>>>>>>> ff27ef3a442f1219c651ffb93613b13b3c12180a
 import {
   SearchBox,
   Hits,
@@ -9,10 +14,15 @@ import {
 import Layout from '../../components/Layout'
 import SearchTabs from '../../components/SearchTabs'
 import KnowledgeRoll from '../../components/KnowledgeRoll'
+<<<<<<< HEAD
 import './Algo.css'
 import Search from '../../components/SearchContainer'
 
 //import Search from '../../components/search'
+=======
+// import './Algo.css'
+// import Search from '../../components/search'
+>>>>>>> ff27ef3a442f1219c651ffb93613b13b3c12180a
 const searchIndices = [
   { name: `anticipation`, title: `Blog posts`, hitComp: `PageHit` },
   {
@@ -152,7 +162,13 @@ export default class KnowledgeIndexPage extends React.Component {
                         transform: 'translateY(-20px) scale(0.8)'
                       }}
                     ></label>
-                    <svg
+
+                    <span
+                      onClick={() => {
+                        alert(
+                          'Search is not configured yet, but thank you for trying out this prototype, it make James very happy :)'
+                        )
+                      }}
                       style={{
                         lineHeight: 1.15,
                         boxSizing: 'border-box',
@@ -166,9 +182,12 @@ export default class KnowledgeIndexPage extends React.Component {
                         transition: 'background-color .15s,fill .15s',
                         height: '52px',
                         width: '52px',
-                        cursor: 'pointer'
+                        cursor: 'pointer',
+                        padding: '17px'
                       }}
-                    ></svg>
+                    >
+                      go
+                    </span>
                   </div>
                 </div>
               </div>
