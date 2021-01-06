@@ -7,7 +7,7 @@
     "@emotion/core": "^10.0.28",
     "@mdx-js/react": "^1.6.1",
     "algoliasearch": "^4.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bulma": "^0.8.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.20.35",
